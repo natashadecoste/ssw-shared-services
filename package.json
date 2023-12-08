@@ -3,19 +3,27 @@
   "private": true,
   "description": "A simple starter to get up and developing quickly with Gatsby",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Natasha DeCoste",
   "dependencies": {
+    "@carbon/charts-react": "^1.13.8",
+    "@carbon/react": "^1.40.0",
+    "d3": "^7.8.5",
+    "d3-cloud": "^1.2.7",
+    "d3-sankey": "^0.12.3",
     "gatsby": "^5.12.4",
     "gatsby-plugin-image": "^3.12.0",
     "gatsby-plugin-manifest": "^5.12.0",
+    "gatsby-plugin-sass": "^6.12.3",
     "gatsby-plugin-sharp": "^5.12.0",
     "gatsby-source-filesystem": "^5.12.0",
     "gatsby-transformer-sharp": "^5.12.0",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "sass": "^1.69.5"
   },
   "devDependencies": {
-    "prettier": "^2.8.8"
+    "prettier": "^2.8.8",
+    "react-router-dom": "^6.18.0"
   },
   "keywords": [
     "gatsby"
@@ -23,6 +31,7 @@
   "license": "0BSD",
   "scripts": {
     "build": "gatsby build",
+    "sweep": "rm -rf node_modules && npm install",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "gatsby develop",
