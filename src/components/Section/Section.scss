@@ -1,0 +1,32 @@
+.group {
+    width: 400px;
+    height: 290px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 32px;
+
+    .top-content {
+        h5 {
+            padding-bottom: 6px;;
+        }
+    }
+
+    .content {
+        height: 90px;
+
+    }
+
+    .footer {
+        padding: 12px 0;
+
+        .buttons {
+            display: flex;
+            flex-direction: row;
+
+            &>button {
+                padding: 6px;
+            }
+        }
+    }
+}

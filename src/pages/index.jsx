@@ -6,7 +6,6 @@ import Seo from "../components/seo"
 
 
 import { InlineNotification } from '@carbon/react';
-import { StaticImage } from "gatsby-plugin-image"
 import './app.scss';
 
 import HeroSvg from "./../images/hero.svg";

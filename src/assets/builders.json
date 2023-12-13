@@ -1,0 +1,200 @@
+{
+    "builders": [
+        {
+            "name": "Criteria",
+            "description": "A criteria defines the conditions for data to be retrieved from the suite's data model. ",
+            "actions": [
+                {
+                    "label": "Learn more",
+                    "link": "/criteria"
+                },
+                {
+                    "label": "Figma file",
+                    "link": "https://www.figma.com/file/tDnPHWzYCsjm0QiUEbmNFX/Template---Criteria-Builder?type=design&mode=design&t=dPtuBzDs8pPAOlPY-1"
+                }
+            ]
+        },
+        {
+            "name": "Work queue",
+            "description": "A work queue provides the ability to isolate and manage items that fall into target criteria. Support for adding reccommended resolutions and related research topics for the group can assist in the mitigation of these items.",
+            "actions": [
+                {
+                    "label": "Learn more",
+                    "link": "/work-queue"
+                },
+                {
+                    "label": "Figma file",
+                    "link": "https://www.figma.com/file/teeQR4KkluOB5qNZk61RSn/Builder---Work-Queue-builder?type=design&mode=design&t=dPtuBzDs8pPAOlPY-1"
+                }
+            ]
+        },
+        {
+            "name": "Resolution",
+            "description": "Define guidance and instructions for addressing high-priority issues effectively. Connect actions in order to support workflow tasks and tools within the suite.",
+            "actions": [
+                {
+                    "label": "Learn more",
+                    "link": "/resolution"
+                },
+                {
+                    "label": "Figma file",
+                    "link": "https://www.figma.com/file/PlrxbvQeJrxaTEvvulqgeh/Template---Resolution-Builder?type=design&mode=design&t=dPtuBzDs8pPAOlPY-1"
+                }
+            ]
+        },
+        {
+            "name": "Card",
+            "description": "Choose from a variety of card types to visualize data that falls within specified criteria. Use cards to extract trends, insights, and potential risks from your supply chain data.",
+            "actions": [
+                {
+                    "label": "Learn more",
+                    "link": "/card"
+                },
+                {
+                    "label": "Figma file",
+                    "link": "https://www.figma.com/file/V2thCvikKllTwNi6jcAHwJ/Builder---Card-Builder?type=design&mode=design&t=dPtuBzDs8pPAOlPY-1"
+                }
+            ]
+        },
+        {
+            "name": "Dashboard",
+            "description": "Select and organize cards to create optimized views tailored to unique use cases and organization structures.",
+            "actions": [
+                {
+                    "label": "Learn more",
+                    "link": "/dashboard"
+                },
+                {
+                    "label": "Figma file",
+                    "link": "https://www.figma.com/file/mN7ZzUSbsxM7iqC10bHT6q/Builder---Dashboard-Builder?type=design&mode=design&t=dPtuBzDs8pPAOlPY-1"
+                }
+            ]
+        },
+        {
+            "name": "Page",
+            "description": "Select and organize cards to create optimized views tailored to unique use cases and organization structures.",
+            "actions": [
+                {
+                    "label": "Learn more",
+                    "link": "/page"
+                },
+                {
+                    "label": "Figma file",
+                    "link": "https://www.figma.com/file/GaeiMdZrAIs0jUaT0ZL39w/Builder---Page-Builder?type=design&mode=design&t=dPtuBzDs8pPAOlPY-1"
+                }
+            ]
+        },
+        {
+            "name": "Message",
+            "description": "Develop dynamic communication templates offering comprehensive information on the risks and potential next steps associated with the triggering action or event.",
+            "actions": [
+                {
+                    "label": "Learn more",
+                    "link": "/message"
+                },
+                {
+                    "label": "Figma file",
+                    "link": "https://www.figma.com/file/l2Okkk4QR2nn7fd96q7c2c/Builder---Message-builder?type=design&node-id=0%3A1&mode=design&t=5VnGqqnl3OuUxuCd-1"
+                }
+            ]
+        },
+        {
+            "name": "Rule",
+            "description": "Use criteria to configure event triggers according to specific conditions or states within your supply chain. Establish automated pipelines to oversee data imports, exports, and transformations when the associated rule is triggered and then executed.",
+            "actions": [
+                {
+                    "label": "Learn more",
+                    "link": "/rule"
+                },
+                {
+                    "label": "Figma file",
+                    "link": "https://www.figma.com/file/olYrGxMHoKSvPgwsVRoAAQ/Builder---Rule-Builder?type=design&mode=design&t=dPtuBzDs8pPAOlPY-1"
+                }
+            ]
+        },
+        {
+            "name": "Custom attribute",
+            "description": "Add a new attributes to the suite's data model in order to integrate unique data sources and dimensions with your other data in the suite.",
+            "actions": [
+                {
+                    "label": "Learn more",
+                    "link": "/custom-attribute"
+                },
+                {
+                    "label": "Figma file",
+                    "link": "https://www.figma.com/file/CBCSqehI283DeL1dF5HCOp/Builder---Custom-Attribute-builder?type=design&node-id=0%3A1&mode=design&t=MYXBcWcmupCwDf90-1"
+                }
+            ]
+        },
+        {
+            "name": "Research topic",
+            "description": "Create smart Watson research topics for addressing high-priority items in a work queue. Topics are linked to the suite's business data in order to provide useful, in context help for mitigating the issue at hand.",
+            "actions": [
+                {
+                    "label": "Learn more",
+                    "link": "/research-assistant"
+                },
+                {
+                    "label": "Figma file",
+                    "link": "https://www.figma.com/file/PEiRFwGaAbEr1xbD36NayJ/Template---Research-Topics-Builder?type=design&mode=design&t=dPtuBzDs8pPAOlPY-1"
+                }
+            ]
+        },
+        {
+            "name": "Intelligence connector",
+            "description": "Provides support for machine learning models to be used within the suite. The connector (machine learning model) uses data from the suite to provide input to run the model.",
+            "actions": [
+                {
+                    "label": "Learn more",
+                    "link": "/intelligence-connector"
+                },
+                {
+                    "label": "Figma file",
+                    "link": "https://www.figma.com/file/Mpla71x7rhfqhqZtJ22B4h/Template---Proj-I?type=design&mode=design&t=dPtuBzDs8pPAOlPY-1"
+                }
+            ]
+        },
+        {
+            "name": "Navigation",
+            "description": "Exposes the ability to regroup, rename and reorganize the left navigation structure to better organize the work for a range of solutions.",
+            "actions": [
+                {
+                    "label": "Learn more",
+                    "link": "/navigation"
+                },
+                {
+                    "label": "Figma file",
+                    "link": "https://www.figma.com/file/rkIZvxBpMl7fK2FbCm7o1M/Builder---Navigation-builder?type=design&node-id=0%3A1&mode=design&t=zg8LwzLPr1WpINH7-1"
+                }
+            ]
+        },
+        {
+            "name": "Solution",
+            "description": "Bundles or collections of various assets that lend to solving a particular use case or cater to a specific domain would fall under a solution.",
+            "actions": [
+                {
+                    "label": "Learn more",
+                    "link": "/solution"
+                },
+                {
+                    "label": "Figma file",
+                    "link": "https://www.figma.com/file/tl2H0hm3ac4S6VFAg7HgL2/Builder---Solution-builder?type=design&node-id=0%3A1&mode=design&t=PP3KPq2BvIJo54Xi-1"
+                }
+            ]
+        },
+        {
+            "name": "Form",
+            "description": "Create dynamic forms hooked into the suite's data model to easily integrate and collaborate with your network of up and downstream vendors.",
+            "actions": [
+                {
+                    "label": "Learn more",
+                    "link": "/solution"
+                },
+                {
+                    "label": "Figma file",
+                    "link": "https://www.figma.com/file/OLLk3MdpwNACGbzugBqV2H/Builder---Form-builder?type=design&mode=design&t=dPtuBzDs8pPAOlPY-1"
+                }
+            ]
+        }
+    ]
+}
